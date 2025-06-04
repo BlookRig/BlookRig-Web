@@ -1,13 +1,31 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        <!-- Meta Tags -->
         <meta charset="UTF-8">
         <meta name="description" content="BlookRig is an open sourced program that automatically finds Blooket game codes and raids them.">
+
+        <!-- Display (Title, Favicon, etc) -->
         <title>BlookRig - Take Blooket Raids to the Next Level</title>
-        <link rel="stylesheet" href="/css/styles.css">
         <link rel="icon" href="/img/favi.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        
+        <main>
+            <div id="titles">
+                <p class="name">BlookRig</p>
+                <p class="slogan">Take Blooket Raids to the Next Level.</p>
+            </div>
+            <div id="information">
+                <p class="divtitle"><i class="fas fa-circle-question"></i> What is BlookRig?</p>
+                <p class="divdescription">BlookRig is a program that actively searches for active Blooket game codes and automatically raids them with open-sourced cheating scripts. It's designed to emulate traditional cryptocurrency mining software in terms of visual and technical designs.</p>
+            </div>
+            <div id="anatomy">
+                <p class="divtitle"><i class="fas fa-hammer"></i> How does it work?</p>
+                <p class="divdescription">The program works by connecting to existing "nodes", containing a list of BSIDs' (Blooket Session ID). Once connected to a valid BSID, BlookRig will access Blooket's <a class="divlink" href="https://fb.blooket.com/c/firebase/join" target="_blank">Game ID API</a> (without the BSID, Blooket will deny access to the api), and generate a series of 6-digit numbers and use the API to verify it's existence. Finally, the programm will use open-sourced scripts from other developers to join a session and utilize cheating scripts to make it unplayable.</p>
+        </main>
     </body>
 </html>
