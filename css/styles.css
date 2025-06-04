@@ -1,0 +1,21 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#titles {
+  background-color: #EAEBE6;
+  color: #000;
+  font-weight: 300;
+  padding: 15px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.slogan {
+  font-size: 30px;
+}
