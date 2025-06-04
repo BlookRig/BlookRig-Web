@@ -1,21 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 body {
   background-color: #FAFAFA;
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 #titles {
   background-color: #EAEBE6;
   color: #000;
-  font-weight: 300;
   padding: 15px;
 }
 
 .name {
   font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 2px;
 }
 
 .slogan {
   font-size: 30px;
+  font-weight: 450;
+  margin-top: 0;
 }
