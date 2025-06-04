@@ -8,10 +8,15 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
-#titles {
-  background-color: #EAEBE6;
+#titles,
+#information,
+#anatomy {
   color: #000;
   padding: 15px;
+}
+
+#titles {
+  background-color: #EAEBE6;
 }
 
 .name {
@@ -24,4 +29,19 @@ body {
   font-size: 35px;
   font-weight: 450;
   margin-top: 0;
+}
+
+#informationtitle,
+#informationdescription {
+  text-align: left;
+}
+
+#informationtitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#informationdescription {
+  font-size: 20px;
+  font-weight: 450;
 }
