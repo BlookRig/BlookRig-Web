@@ -6,7 +6,7 @@ header {
   color: #fff;
   margin: 0;
   top: 0;
-  padding: 15px;
+  padding: 10px;
 }
 
 #left {
@@ -18,15 +18,14 @@ header {
 }
 
 .logo {
-  width: 60px;
+  width: 50px;
   height: auto;
   cursor: pointer;
 }
 
 .rightlinks {
-  padding: 10px;
+  padding: 7px;
   border: none;
-  gap: 5px;
   background-color: #EAEBE6;
   color: #000;
   border-radius: 5px;
@@ -35,6 +34,8 @@ header {
   font-weight: bold;
   transition: background-color 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .rightlinks:hover {
