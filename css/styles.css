@@ -19,48 +19,58 @@ body {
   padding: 15px;
 }
 
-#information {
-  margin-left: 10%;
-  margin-right: 50%;
-  padding: 25px;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
+#information,
 #anatomy {
-  margin-right: 10%;
-  margin-left: 50%;
-  padding: 25px;
+  flex: 1 1 400px;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .name {
-  font-size: 55px;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2px;
 }
 
 .slogan {
-  font-size: 35px;
+  font-size: 1.75rem;
   font-weight: 450;
   margin-top: 0;
 }
 
+#informationtitle,
+#anatomytitle {
+  font-size: 1.5rem;
+}
+
+#informationdescription,
+#anatomydescription {
+  font-size: 1.1rem;
+}
+
 #informationtitle {
   margin-bottom: 5px;
-  font-size: 30px;
   font-weight: 700;
 }
 
 #informationdescription {
-  font-size: 25px;
   font-weight: 450;
 }
 
 #anatomytitle {
   margin-bottom: 5px;
-  font-size: 30px;
   font-weight: 700;
 }
 
 #anatomydescription {
-  font-size: 25px;
   font-weight: 450;
 }
