@@ -39,6 +39,7 @@ body {
 #usage {
   background-color: #EAEBE6;
   padding: 15px;
+  margin: 10px;
 }
 
 .name {
@@ -77,11 +78,10 @@ body {
   border-radius: 7px;
   border: 5px solid #C7D4D5;
   cursor: pointer;
-  transition: background-color 0.3s ease, border 0.3s ease;
+  transition: background-color 0.3s ease;
   background-color: #DFE8E9;
 }
 
 .docs:hover {
-  border: 5px solid #DFE8E9;
   background-color: #C7D4D5;
 }
