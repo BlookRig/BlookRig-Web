@@ -1,7 +1,7 @@
 document.write(`
 <header>
 <div id="left" onclick="window.location.href='/';">
-<img class="logo" href="/img/favi.png" alt="BLKRIG">
+<img class="logo" src="/img/favi.png" alt="BLKRIG">
 </div>
 <div id="right">
 <a class="rightlinks" href="/products.html">Products</a>
