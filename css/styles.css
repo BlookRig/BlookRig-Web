@@ -9,6 +9,10 @@ body {
   color: #000;
 }
 
+main {
+  min-height: 100vh;
+}
+
 #titles {
   background-color: #EAEBE6;
   padding: 15px;
