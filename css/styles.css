@@ -19,16 +19,25 @@ body {
   padding: 15px;
 }
 
+#information,
+#anatomy,
+#problem {
+  padding: 25px;
+}
+
 #information {
   margin-left: 10%;
   margin-right: 50%;
-  padding: 25px;
 }
 
 #anatomy {
   margin-right: 10%;
   margin-left: 50%;
-  padding: 25px;
+}
+
+#problem {
+  margin-left: 10%;
+  margin-right: 50%;
 }
 
 .name {
@@ -44,29 +53,16 @@ body {
 }
 
 #informationtitle,
-#anatomytitle {
+#anatomytitle
+#problemtitle {
   font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 #informationdescription,
-#anatomydescription {
+#anatomydescription,
+#problemdescription {
   font-size: 25px;
-}
-
-#informationtitle {
-  margin-bottom: 5px;
-  font-weight: 700;
-}
-
-#informationdescription {
-  font-weight: 450;
-}
-
-#anatomytitle {
-  margin-bottom: 5px;
-  font-weight: 700;
-}
-
-#anatomydescription {
   font-weight: 450;
 }
