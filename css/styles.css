@@ -56,3 +56,19 @@ body {
   font-size: 25px;
   font-weight: 450;
 }
+
+#anatomytitle,
+#anatomydescription {
+  text-align: right;
+}
+
+#anatomytitle {
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#anatomydescription {
+  font-size: 25px;
+  font-weight: 450;
+}
