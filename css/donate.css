@@ -1,7 +1,14 @@
 #intro,
 #donate {
+  padding: 25px;
+}
+
+#intro {
+  margin-right: 50%;
+}
+
+#donate {
   text-align: center;
-  padding: 15px;
 }
 
 .introtitle {
