@@ -1,6 +1,43 @@
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #151419;
   color: #fff;
   margin: 0;
   top: 0;
+  padding: 5px;
 }
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+
+.rightlinks {
+  padding: 10px;
+  border: none;
+  background-color: #EAEBE6;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24em;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.rightlinks:hover {
+  background-color: #a3a3a3;
+}
+
+
