@@ -19,20 +19,16 @@ body {
   padding: 15px;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+#information {
+  margin-left: 10%;
+  margin-right: 50%;
+  padding: 25px;
 }
 
-#information,
 #anatomy {
-  flex: 1 1 400px;
-  max-width: 600px;
-  padding: 20px;
-  box-sizing: border-box;
+  margin-right: 10%;
+  margin-left: 50%;
+  padding: 25px;
 }
 
 .name {
