@@ -1,0 +1,35 @@
+#intro,
+#donate {
+  text-align: center;
+  padding: 15px;
+}
+
+.introtitle {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.introsubtitle {
+  font-size: 40px;
+  font-weight: 450;
+}
+
+.donate {
+  padding: 7px;
+  border: none;
+  background-color: #EAEBE6;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.donate:hover {
+  background-color: #a3a3a3;
+}
