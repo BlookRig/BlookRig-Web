@@ -1,14 +1,8 @@
 #intro,
 #donate {
   padding: 25px;
-}
-
-#intro {
+  text-align: left;
   margin-right: 50%;
-}
-
-#donate {
-  text-align: center;
 }
 
 .introtitle {
@@ -22,13 +16,13 @@
 }
 
 .donate {
-  padding: 7px;
+  padding: 15px;
   border: none;
   background-color: #EAEBE6;
   color: #000;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   transition: background-color 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
