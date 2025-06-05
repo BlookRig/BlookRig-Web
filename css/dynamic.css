@@ -30,7 +30,7 @@ header {
   color: #000;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 24em;
+  font-size: 24px;
   font-weight: bold;
   transition: background-color 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
