@@ -55,7 +55,8 @@ body {
 
 #informationtitle,
 #anatomytitle,
-#problemtitle {
+#problemtitle,
+#usagetitle {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -63,7 +64,8 @@ body {
 
 #informationdescription,
 #anatomydescription,
-#problemdescription {
+#problemdescription,
+#usagedescription {
   font-size: 25px;
   font-weight: 450;
 }
