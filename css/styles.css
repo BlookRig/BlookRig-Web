@@ -8,14 +8,6 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
 #titles,
 #information,
 #anatomy {
@@ -40,25 +32,25 @@ main {
 }
 
 .name {
-  font-size: 2.5rem;
+  font-size: 55px;
   font-weight: 700;
   margin-bottom: 2px;
 }
 
 .slogan {
-  font-size: 1.75rem;
+  font-size: 35px;
   font-weight: 450;
   margin-top: 0;
 }
 
 #informationtitle,
 #anatomytitle {
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 #informationdescription,
 #anatomydescription {
-  font-size: 1.1rem;
+  font-size: 25px;
 }
 
 #informationtitle {
