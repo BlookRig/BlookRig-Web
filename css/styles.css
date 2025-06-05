@@ -24,6 +24,11 @@ body {
   padding: 25px;
 }
 
+#anatomy {
+  margin-left: 50%;
+  padding: 25px;
+}
+
 .name {
   font-size: 55px;
   font-weight: 700;
@@ -42,6 +47,7 @@ body {
 }
 
 #informationtitle {
+  margin-bottom: 5px;
   font-size: 30px;
   font-weight: 700;
 }
