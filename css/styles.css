@@ -67,3 +67,19 @@ body {
   font-size: 25px;
   font-weight: 450;
 }
+
+.docs {
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid #C7D4D5;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  background-color: #DFE8E9;
+}
+
+.docs:hover {
+  border: 1px solid #DFE8E9;
+  background-color: #C7D4D5;
+}
