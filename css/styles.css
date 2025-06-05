@@ -14,6 +14,11 @@ body {
   padding: 15px;
 }
 
+.divlink {
+  text-decoration: none;
+  color: #E3CCA9;
+}
+
 #information,
 #anatomy,
 #problem,
