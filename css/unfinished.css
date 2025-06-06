@@ -1,0 +1,14 @@
+.unfinishedtitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.unfinishedescription {
+  font-size: 30px;
+  font-weight: 450;
+}
+
+.unfinishedtitle,
+.unfinishedescription {
+  text-align: center;
+}
