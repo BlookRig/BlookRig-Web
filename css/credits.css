@@ -3,7 +3,8 @@
   padding: 15px;
   margin: 25%;
   border-radius: 10px;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .maintitle {
@@ -13,7 +14,9 @@
 
 .credits {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   padding: 10px;
   border: none;
   background-color: #EAEBE6;
@@ -35,7 +38,6 @@
 
 .creditlogo {
   border-radius: 50%;
-  width: 30px;
+  width: 40px;
   object-fit: cover;
-  justify-content: center;
 }
